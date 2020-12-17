@@ -10,10 +10,12 @@ This repository has two split codes
   - random seed numbers: 3 [ex) 8, 88, 888]
   - split **parsing word '_'**  [ex) groupid_imagename.jpg]
   - You can use for pytorch imagefolder dataset
+  - default split setting is fixed testset
 - folder_split.py
   - Train/Validation/Test = 8:1:1
   - random seed numbers: 3 [ex) 8, 88, 888]
   - You can use for pytorch imagefolder dataset
+  - default split setting is fixed testset
 
 
 
