@@ -1,0 +1,21 @@
+# Author: Changwon Seo
+# Version: 1.0.0
+
+# [Model Configuration]
+# you can choose folder_split configuration
+#
+# test_fixed: Boolean[True: it never change testset(fixed), False: it composes train/val/test by 3 numbers of random seed]
+# seed : 
+# - first : First seed number(int)
+# - second : Second seed number(int)
+# - third : Third seed number(int)
+# dir_path: directory path of your folder which want to split
+folder_split:
+    testset_fixed: True
+    seed:
+        first: 8
+        second: 88
+        third: 888
+    dir_path: '/home/mlm08/ml/data/grp_split/2CLS/'
+
+    
