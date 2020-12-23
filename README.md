@@ -19,11 +19,24 @@ This repository has two split codes
 
 
 
-
-
 ### Group split folder structure
 
+#### Configuration
+
+- Configuration is handled by yaml files
+
+
+
 #### Folder Structure 
+
+##### yaml file name: folder_split_configuration.yml
+
+- test_fixed: Boolean[True: it never change testset(fixed), False: it composes train/val/test by 3 numbers of random seed]
+- seed :
+  - first : First seed number(int)
+  - second : Second seed number(int)
+  - third : Third seed number(int)
+  - dir_path: directory path of your folder which want to split
 
 ```buildoutcfg
 +-- root
@@ -53,6 +66,16 @@ This repository has two split codes
 
 
 ### Group split folder structure
+
+##### yaml file name: group_split_configuration.yml
+
+- test_fixed: Boolean[True: it never change testset(fixed), False: it composes train/val/test by 3 numbers of random seed]
+- seed :
+  - first : First seed number(int)
+  - second : Second seed number(int)
+  - third : Third seed number(int)
+  - parsing_word : '_' [ex) groupid_imagename.jpg]
+  - dir_path: directory path of your folder which want to split
 
 #### folder structure
 
