@@ -11,11 +11,11 @@
 # - third : Third seed number(int)
 # dir_path: directory path of your folder which want to split
 folder_split:
-    testset_fixed: True
+    testset_fixed: False
     seed:
-        first: 8
-        second: 88
-        third: 888
-    dir_path: '/home/mlm08/ml/data/grp_split/2CLS/'
+        first: 7
+        second: 77
+        third: 777
+    dir_path: '/home/huray/workspace/data/food_sample_0419/food-sample3/'
 
     
